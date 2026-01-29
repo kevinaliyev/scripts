@@ -1,9 +1,9 @@
 #Requires AutoHotkey v2.0
 #SingleInstance Force
 
-; keep config at the top of the include stack -> functions -> hotkeys
+;keep config at the top of the include stack -> functions -> hotkeys
+
 #Include config.ahk
 #Include functions/window-utils.ahk
-
 #Include hotkeys/window.ahk
 

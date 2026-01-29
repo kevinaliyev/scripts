@@ -1,4 +1,4 @@
-; window maximize function
+;window maximize function
 
 ToggleMaximize() {
     hwnd := WinGetID("A")
@@ -9,7 +9,7 @@ ToggleMaximize() {
         WinMaximize("ahk_id " hwnd)
 }
 
-; window minimize wrapper to avoid using lambda in hotkeys
+;window minimize wrapper to avoid using lambda in hotkeys
 
 MinimizeActive(*) {
     WinMinimize("A")
