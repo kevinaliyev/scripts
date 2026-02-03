@@ -1,6 +1,6 @@
 ### A Collection of Scripts for Automations, System Config, Personal Use :-)
 
-## included tools
+## included tools (not updated, refer to commit history for tool information)
 
 * pkg-parity.sh
 
