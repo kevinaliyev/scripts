@@ -1,7 +1,7 @@
 # AHK AIO Windows User Utilities
 
 A collection of AHK scripts meant to improve the workflow of a user on windows.
-
+---
 ## Usage 
 
 Simply run the main.ahk script 
@@ -10,8 +10,7 @@ Simply run the main.ahk script
 Additionally, if you want initialization on startup, (Create &) add a shortcut for the main.ahk file in the windows startup apps folder. 
 
 	( win+r -> shell:startup -> drag main.lnk into the folder )
-
-
+---
 ## Configuration
 
 Script functionality has been broken into their own function ahk files. For bigger utilities like window management, or taskbar management, you can choose which you wish to include (or rather exclude) by simply <u>commenting</u> out their include statement found in main.ahk 
