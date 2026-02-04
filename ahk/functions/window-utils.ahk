@@ -14,3 +14,18 @@ ToggleMaximize() {
 MinimizeActive(*) {
     WinMinimize("A")
 }
+
+; Close active window (Alt+F4 equivalent)
+
+CloseActive(*) {
+    Send("!{F4}")
+}
+
+
+; Kill active windows process (end task)
+
+KillActiveWindow(*) {
+    hwnd := WinGetID("A")
+    pid := WinGetPID("ahk_id " hwnd)
+    try ProcessClose(pid)
+}
