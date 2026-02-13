@@ -1,0 +1,10 @@
+font-symbols-only-nerd-font
+karabiner-elements
+keycastr
+kitty
+mitmproxy
+netspot
+obsidian
+stats
+sublime-text
+visual-studio-code
