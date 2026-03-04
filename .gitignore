@@ -1,5 +1,6 @@
 # Ignore private scripts
 private/
+/ahk/win-utils/startup/
 
 # Ignore editor/system files
 .DS_Store
