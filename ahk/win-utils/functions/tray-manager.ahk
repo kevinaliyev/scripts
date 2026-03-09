@@ -22,7 +22,7 @@ Tray_Init(*) {
     SetTimer(AutoHideTick, 750)
 
     ; Failsafe: restores windows on clean exit, force exits will need manual intervention
-    OnExit(RestoreAllHidden)
+    OnExit(RestoreAllHiddenOnExit)
 }
 
 HideActiveToTray(*) {
