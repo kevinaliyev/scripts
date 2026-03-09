@@ -39,3 +39,15 @@ Key_HideToTray := "!+h"     ; Alt + Shift + H
 ;-------------------------------------------------------------
 
 Hotkey(Key_HideToTray, (*) => HideActiveToTray())
+
+;-------------------------------------------------------------
+; always-on-top / pinned window keymaps
+;-------------------------------------------------------------
+
+Key_TogglePin := "!p"   ; Alt + p
+
+;-------------------------------------------------------------
+; always-on-top / pinned window functionality
+;-------------------------------------------------------------
+
+Hotkey(Key_TogglePin, (*) => TogglePinActiveWindow())
