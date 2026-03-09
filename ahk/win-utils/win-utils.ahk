@@ -3,8 +3,10 @@
 
 ; keep config at the top
 
-#Include config.ahk
+
 #Include functions/window-utils.ahk
+#Include functions/window-pin.ahk
 #Include functions/tray-manager.ahk
+#Include config.ahk
 
 Tray_Init()
